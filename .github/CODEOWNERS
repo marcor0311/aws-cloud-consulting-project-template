@@ -1,0 +1,5 @@
+# Configurar los usuarios o equipos reales al crear cada proyecto.
+# El arquitecto es responsable de aprobar los PRs técnicos.
+# Ejemplo de sintaxis; activar únicamente con un responsable real:
+# * @usuario-o-equipo-responsable
+# Exigir su aprobación mediante las reglas de main en GitHub.

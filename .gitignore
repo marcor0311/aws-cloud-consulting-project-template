@@ -1,0 +1,36 @@
+# Credenciales y configuración personal
+.env
+.env.*
+!.env.example
+secrets/
+.aws/
+.codex/
+credentials.json
+*_token.json
+*oauth*client*.json
+*.pem
+*.key
+
+# Terraform: conservar el lock de dependencias, excluir estado y valores privados
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+
+# Entornos y archivos temporales
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+coverage/
+*.log
+.DS_Store
+.idea/
+.vscode/
