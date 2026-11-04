@@ -3,7 +3,7 @@
 **Responsable:** Cloud Infrastructure Engineer, con criterios del arquitecto.
 
 Esta área comienza sin pruebas de una solución. Las comprobaciones iniciales de
-documentación y secretos están descritas en el [README principal](../README.md).
+documentación y secretos están descritas en [AGENTS.md](../AGENTS.md).
 
 ## Al incorporar código
 

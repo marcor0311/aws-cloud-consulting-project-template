@@ -38,5 +38,5 @@ git diff --check
 
 Usa Gitleaks 8.30.1. El workflow valida Markdown y secretos del historial.
 Cuando se incorpore una solución, documenta sus comandos reales en `infra/`,
-`tests/` y el README principal, y añádelos al workflow. Informa los resultados
+`tests/` y esta guía, y añádelos al workflow. Informa los resultados
 obtenidos y las validaciones que no pudieron ejecutarse.
