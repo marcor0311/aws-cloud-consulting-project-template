@@ -1,0 +1,50 @@
+name: Tarea de proyecto
+description: Trabajo de una fase con responsable, insumos y entrega definidos.
+title: "[Fase] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Asigna este issue a la persona responsable desde GitHub.
+        Enlaza los insumos aprobados y conserva su ubicación por fase.
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Fase
+      options:
+        - 01. Descubrimiento y preparación
+        - 02. Priorización
+        - 03. Arquitectura
+        - 04. Costos
+        - 05. Implementación y operación
+        - 06. Informe ejecutivo y cierre
+    validations:
+      required: true
+  - type: textarea
+    id: work
+    attributes:
+      label: Objetivo y alcance
+      description: Describe el resultado esperado y los límites de esta tarea.
+    validations:
+      required: true
+  - type: textarea
+    id: inputs
+    attributes:
+      label: Insumos
+      description: Rutas, issues, PRs o commits aprobados que sustentan el trabajo.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Criterios de aceptación
+      description: Resultados verificables y revisión humana que corresponde.
+    validations:
+      required: true
+  - type: textarea
+    id: delivery
+    attributes:
+      label: Entrega y siguiente responsable
+      description: Ubicación del resultado, destinatario y fase siguiente.
+    validations:
+      required: true
